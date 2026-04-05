@@ -1,16 +1,58 @@
-# React + Vite
+# 💼 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **finance dashboard interface** built using **React, Tailwind CSS, and Recharts** for the Frontend Developer Intern assignment.
 
-Currently, two official plugins are available:
+This project focuses on **clean UI/UX, dynamic state management, role-based access, and interactive data visualization**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Dashboard Overview
+- Dynamic **Total Balance**, **Income**, and **Expenses** summary cards
+- **Balance Trend** line chart that updates with transaction data
+- **Spending Breakdown** pie chart by category
+- Fully synced with transaction state
 
-## Expanding the ESLint configuration
+### 💳 Transactions Section
+- Add new transactions (Admin only)
+- Delete transactions (Admin only)
+- Filter by **All / Income / Expense**
+- Local storage persistence
+- Empty state handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👥 Role-Based UI
+- **Viewer** → read-only access
+- **Admin** → add and delete transactions
+- Switch roles using dropdown
+- Role-based profile avatar in sidebar
+
+### 💡 Insights
+- Highest spending category
+- Net cash flow
+- Expense-to-income ratio
+- Dynamic insights based on transactions
+
+### 🌙 Additional Enhancements
+- Dark mode toggle
+- Smooth UI transitions
+- Responsive layout
+- Sidebar navigation
+- Persistent data using local storage
+
+---
+
+## 🛠️ Tech Stack
+- **React**
+- **Tailwind CSS**
+- **Recharts**
+- **Local Storage**
+- **Vite**
+
+---
+
+## 🚀 Getting Started
+
+### Install dependencies
+```bash
+npm install
