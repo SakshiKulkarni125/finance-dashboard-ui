@@ -56,7 +56,7 @@ This project focuses on **clean UI/UX, dynamic state management, role-based acce
 ### Install dependencies
 ```bash
 npm install
+```
 
-
-For the Live Dashboard click here
+### For the Live Dashboard click here
 https://finance-dashboard-ui-sakshi.vercel.app/
